@@ -36,6 +36,30 @@ html,body{
    position: relative;
    top: 65px;
    left: 19px;
-   width: 208px;
-   height: 373px;
+   width: 212px;
+   height: 376px;
+ }
+
+section#redes-sociais{
+   text-align: right;
+   margin-right: 15px;
+}
+
+ section#redes-sociais img{
+   margin-right: 10px;
+   width:50px;
+   margin: 10px;
+   border-radius: 50%;
+   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.402);
+   box-sizing: border-box;
+   /*
+   faz com que a borda adicionada abaixo faça parte da caixa(pois quando foi colocado a borda o desenho da figura aumenta quando é passado o mouse)
+   */
+ }
+
+ section#redes-sociais img:hover{
+   border: 2px solid rgba(255, 255, 255, 0.603);
+   transform: translate(-3px,-3px);
+   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.616);
+   transition: transform 1s, border 1s;
  }
